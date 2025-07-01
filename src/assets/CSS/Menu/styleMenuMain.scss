@@ -1,0 +1,32 @@
+.menu-main {
+    display: flex;
+    align-items: center;
+    background-color: #171717;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    img {
+            width: auto;
+            height: 3.5rem;
+    }
+    div {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        nav {
+            display: flex;
+            align-items: center;
+            ul {
+                display: flex;
+                flex-direction: row;
+                gap: 4rem;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.btn-main {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 800;
+  padding: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+.btn-secundary {
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 900;
+  padding: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1rem;
+  border: 2px solid #ffffff;
+}
+
+.btn-outline {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=styleItems.css.map */
