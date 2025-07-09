@@ -1,0 +1,85 @@
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  min-height: 90vh;
+}
+.container-main .container-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #171717;
+  width: 25rem;
+  height: 32.5rem;
+}
+.container-main .container-register h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.container-main .container-register form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 2rem;
+}
+.container-main .container-register form .container-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+  height: 2.5rem;
+}
+.container-main .container-register form .container-terms {
+  width: 100%;
+  display: flex;
+  justify-content: initial;
+}
+.container-main .container-register form .container-input-9 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-main .container-register form .container-input-9 .btn-main {
+  font-weight: 700;
+  font-size: 2rem;
+  width: 60%;
+  border-radius: 5rem;
+}
+.container-main .container-register form .container-input-1 {
+  grid-area: 1/1/2/2;
+}
+.container-main .container-register form .container-input-2 {
+  grid-area: 1/2/2/3;
+}
+.container-main .container-register form .container-input-3 {
+  grid-area: 2/1/3/3;
+}
+.container-main .container-register form .container-input-4 {
+  grid-area: 3/1/4/2;
+}
+.container-main .container-register form .container-input-5 {
+  grid-area: 3/2/4/3;
+}
+.container-main .container-register form .container-input-6 {
+  grid-area: 4/1/5/2;
+}
+.container-main .container-register form .container-input-7 {
+  grid-area: 4/2/5/3;
+}
+.container-main .container-register form .container-input-8 {
+  grid-area: 5/1/6/3;
+}
+.container-main .container-register form .container-input-9 {
+  grid-area: 6/1/7/3;
+}
+
+/*# sourceMappingURL=styleRegister.css.map */
